@@ -1,0 +1,2 @@
+# strapi-dailysurvey
+base strapi
