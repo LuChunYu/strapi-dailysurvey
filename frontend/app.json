@@ -1,0 +1,26 @@
+{
+  "pages": ["pages/report/index", "pages/info/index"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#121733",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "日常健康调查"
+  },
+  "tabBar": {
+    "selectedColor": "#ffffff",
+    "color": "#808080",
+    "backgroundColor": "#262B45",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/report/index",
+        "text": "查看报告"
+      },
+      {
+        "pagePath": "pages/info/index",
+        "text": "信息录入"
+      }
+    ]
+  },
+  "style": "v2"
+}

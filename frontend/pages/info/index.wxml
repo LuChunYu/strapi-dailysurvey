@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <text> 信息录入页面 </text>
+</view>

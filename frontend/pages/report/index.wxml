@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <text> 报表页面 </text>
+</view>
