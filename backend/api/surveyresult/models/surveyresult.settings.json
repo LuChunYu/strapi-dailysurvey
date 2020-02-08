@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "surveyresults",
+  "info": {
+    "name": "Surveyresult"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "json"
+    }
+  }
+}

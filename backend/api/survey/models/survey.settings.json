@@ -1,0 +1,31 @@
+{
+  "info": {
+    "name": "Survey"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "company": {
+      "type": "string"
+    },
+    "content": {
+      "type": "json"
+    }
+  },
+  "connection": "default",
+  "collectionName": "surveys"
+}
